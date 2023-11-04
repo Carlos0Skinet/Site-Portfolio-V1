@@ -197,7 +197,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -267,3 +267,90 @@ section.portfolio .flex{
     opacity: 1;
 }
 
+/* FORMULARIO */
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 25px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color:  rgba(144, 67, 216, 0.897);
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .4s;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 10px rgb(132, 0, 255);
+    transform: scale(1.05);
+}
+
+/* rodapé */
+
+footer .interface .line-footer .logo-footer h1{
+    color: #fff;
+}
+
+footer .interface .line-footer .logo-footer span{
+    color:  rgba(144, 67, 216, 0.897);
+    display: block;
+}
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff13;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+footer .line-footer p i {
+    color: rgba(144, 67, 216, 0.897);
+    font-size: 30px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
+.borda{
+    border-top: 2px solid rgba(144, 67, 216, 0.897);
+}
