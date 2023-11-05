@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <script src="menu.js" defer></script>
     <meta charset="UTF-8" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,8 +35,8 @@
         <nav class="menu-desktop">
           <!--Menu DSK-->
           <ul>
-            <li><a href="Início">Início</a></li>
-            <li><a href="Especialidades">Especialidades</a></li>
+            <li><a href="Inicio">Início</a></li>
+            <li><a href="Tecnologias">Tecnologias</a></li>
             <li><a href="Sobre">Sobre</a></li>
             <li><a href="Projetos">Projetos</a></li>
           </ul>
@@ -43,14 +44,33 @@
         <!--Menu DSK-->
 
         <div class="btn-contato">
-          <!--Botão de contato-->
+         
           <a href="#">
             <button>Contato</button>
           </a>
+        </div> <!--Botão de contato-->
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list-ul"></i>
         </div>
-        <!--Botão de contato-->
-      </div>
-      <!-- interface -->
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class="bi bi-x-circle"></i>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Tecnologias</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Projetos</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav><!--Menu mb nav-->
+
+        </div><!--menu-mobile-->
+        <div class="overlay-menu" id="overlay-menu"></div>
+      </div> <!-- interface -->
     </header>
 
     <main>
