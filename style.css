@@ -175,8 +175,64 @@ section.topo-do-site .flex {
   line-height: 40px;
 }
 
+.topo-do-site .txt-topo-site{
+  min-width: 280px;
+}
+
 .topo-do-site .txt-topo-site h1 span {
+  position: relative;
   color: rgba(144, 67, 216, 0.897);
+}
+
+
+.topo-do-site .txt-topo-site h1 span::before{
+  content: "soluções";
+  color: #fff;
+  animation: palavras 20s infinite;
+}
+
+.topo-do-site .txt-topo-site h1 span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #000;
+  border-left: 1.5px solid rgba(144, 67, 216, 0.897);
+  right: -8px;
+  animation: pisca .85s infinite, escrevendo 20s steps(14) infinite;
+}
+
+@keyframes pisca{
+  to{
+    border-left: 2px solid #000;
+  }
+}
+
+@keyframes palavras{
+  0%,20%{
+    content: "inovações";
+  }
+  21%,40%{
+    content: "softwares";
+  }
+  41%,60%{
+    content: "soluções";
+  }
+  61%,80%{
+    content: "aplicativos";
+  }
+  81%,100%{
+    content: "conhecimento";
+  }
+}
+
+@keyframes escrevendo{
+  10%,15%,30%,35%,40%,45%,50%,55%,60%,65%,70%,75%,80%,85%,90%,95%{
+    width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px);
+  }
 }
 
 .topo-do-site .txt-topo-site p {
