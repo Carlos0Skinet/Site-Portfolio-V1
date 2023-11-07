@@ -181,6 +181,11 @@ section.topo-do-site .flex {
   left: 100px;
 }
 
+.topo-do-site .txt-topo-site p{
+  position: relative;
+  max-width: 600px;
+}
+
 .topo-do-site .txt-topo-site h1 span {
   position: relative;
   color: rgba(144, 67, 216, 0.897);
@@ -212,10 +217,10 @@ section.topo-do-site .flex {
 
 @keyframes palavras{
   0%,20%{
-    content: "inovações";
+    content: "softwares";
   }
   21%,40%{
-    content: "softwares";
+    content: "inovações";
   }
   41%,60%{
     content: "soluções";
@@ -269,7 +274,8 @@ section.especialidades {
 section.especialidades .flex {
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 60px;
+  margin-top: 50px;
 }
 
 .especialidades .especialidades-box {
@@ -279,6 +285,13 @@ section.especialidades .flex {
   margin-top: 45px;
   transition: 0.2s;
 }
+
+.especialidades .especialidades-box p{
+  position: relative;
+  max-width: 400px;
+}
+
+
 
 .especialidades .especialidades-box:hover {
   transform: scale(1.05);
@@ -292,7 +305,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box h3 {
   font-size: 30px;
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 /* Estilo do sobre */
