@@ -28,7 +28,7 @@ body {
   border: 0;
   border-radius: 30px;
   cursor: pointer;
-  transition: 1.25s;
+  transition: .45s;
 }
 
 .btn-contato button:hover {
@@ -176,7 +176,9 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site{
-  min-width: 280px;
+  min-width: 290px;
+  position: absolute;
+  left: 100px;
 }
 
 .topo-do-site .txt-topo-site h1 span {
@@ -222,7 +224,7 @@ section.topo-do-site .flex {
     content: "aplicativos";
   }
   81%,100%{
-    content: "conhecimento";
+    content: "sites";
   }
 }
 
@@ -243,8 +245,10 @@ section.topo-do-site .flex {
 .topo-do-site .img-topo-site img {
   position: relative;
   animation: flutuante 2s ease-in-out infinite alternate;
-  width: 385px;
-  height: 385px;
+  width: 395px;
+  height: 395px;
+  left: 100%;
+  margin-top: -25px;
 }
 
 @keyframes flutuante {
@@ -488,7 +492,7 @@ footer .line-footer p a {
   border-top: 2px solid rgba(144, 67, 216, 0.897);
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1180px) {
   /* classes gerais */
 
   .btn-abrir-menu{
@@ -511,6 +515,17 @@ footer .line-footer p a {
   }
 
   /* topo do site */
+  .topo-do-site .txt-topo-site{
+    position: relative;
+    left: 0;
+  }
+
+  .topo-do-site .img-topo-site img{
+    width: 395px;
+    height: 395px;
+    left: 0;
+    margin-top: 0px;
+  }
 
   .topo-do-site .flex {
     flex-direction: column-reverse;
