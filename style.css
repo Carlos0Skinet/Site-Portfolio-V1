@@ -268,7 +268,7 @@ section.topo-do-site .flex {
 /* Estilo das especialidades */
 
 section.especialidades {
-  padding: 80px 4%;
+  padding: 90px 4%;
 }
 
 section.especialidades .flex {
@@ -372,6 +372,7 @@ section.sobre .flex {
 section.portfolio {
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff13;
+  visibility: hidden;
 }
 
 .img-port {
