@@ -386,7 +386,6 @@ section.sobre .flex {
 section.portfolio {
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff13;
-  visibility: hidden;
 }
 
 .img-port {
@@ -435,6 +434,7 @@ section.portfolio .flex {
 
 section.formulario {
   padding: 80px 4%;
+  visibility: hidden;
 }
 
 form {

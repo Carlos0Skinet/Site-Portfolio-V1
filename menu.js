@@ -47,6 +47,40 @@ sr.reveal('.sobre .txt-sobre', {
     delay: 500
 });
 //fim sobre 
+//portfolio
+//fim portfolio
+// formulario
+sr.reveal('.dsnc', { 
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    delay: 250
+});
+sr.reveal('.dse', { 
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    delay: 500
+});
+sr.reveal('.dsc', { 
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    delay: 750
+});
+sr.reveal('.esm', { 
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    delay: 1000
+});
+sr.reveal('.btn-enviar', { 
+    duration: 1000,
+    origin: 'top',
+    distance: '28px',
+    delay: 1250
+});
+//fim formulario
 // Gerais
 sr.reveal('.titulo', { 
     duration: 2000,
