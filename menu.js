@@ -43,7 +43,7 @@ sr.reveal('.sobre .img-sobre img', {
 sr.reveal('.sobre .txt-sobre', { 
     duration: 1500,
     origin: 'right',
-    distance: '50px',
+    distance: '28px',
     delay: 500
 });
 //fim sobre 
