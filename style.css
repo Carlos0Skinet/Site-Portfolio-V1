@@ -46,6 +46,16 @@ h2.titulo span {
   color: rgba(144, 67, 216, 0.897);
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: rgb(132, 0, 255);
+  border-radius: 25px;
+}
+
 /* CABEÇALHO */
 
 header {
@@ -179,6 +189,7 @@ section.topo-do-site .flex {
   min-width: 290px;
   position: absolute;
   left: 100px;
+  visibility: hidden;
 }
 
 .topo-do-site .txt-topo-site p{
@@ -254,6 +265,7 @@ section.topo-do-site .flex {
   height: 395px;
   left: 100%;
   margin-top: -25px;
+  visibility: hidden;
 }
 
 @keyframes flutuante {
@@ -322,6 +334,7 @@ section.sobre .flex {
 
 .sobre .txt-sobre {
   color: #fff;
+  visibility: hidden;
 }
 
 .sobre .txt-sobre h2 {
@@ -354,6 +367,7 @@ section.sobre .flex {
 
 .sobre .img-sobre img {
   border-radius: 25px;
+  visibility: hidden;
 }
 
 .sobre .txt-sobre .btn-social button:hover {

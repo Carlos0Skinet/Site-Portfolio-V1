@@ -19,6 +19,39 @@ overlay.addEventListener('click', ()=>{
 // Scroll reveal
 window.sr = ScrollReveal({ reset: true});
 
-sr.reveal('.portfolio', { 
-    duration: 1200});
+// topo do site
+sr.reveal('.txt-topo-site', { 
+    duration: 1500,
+    distance: '90px'
+});
+
+sr.reveal('.img-topo-site img', { 
+    duration: 1500,
+    distance: '90px',
+    delay: 500
+});
+
+// fim topo do site
+// sobre
+sr.reveal('.sobre .img-sobre img', { 
+    duration: 1500,
+    origin: 'left',
+    distance: '90px',
+    delay: 250
+});
+
+sr.reveal('.sobre .txt-sobre', { 
+    duration: 1500,
+    origin: 'right',
+    distance: '50px',
+    delay: 500
+});
+//fim sobre 
+// Gerais
+sr.reveal('.titulo', { 
+    duration: 2000,
+    distance: '90px'
+});
+
+// Fim gerais
 // Fim scroll reveal
