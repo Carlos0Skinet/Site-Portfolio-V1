@@ -524,6 +524,16 @@ footer .line-footer p a {
   border-top: 2px solid rgba(144, 67, 216, 0.897);
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+
 @media screen and (max-width: 1180px) {
   /* classes gerais */
 
