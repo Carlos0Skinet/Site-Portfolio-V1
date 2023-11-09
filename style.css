@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: #0f0f0f;
   height: 100vh;
 }
 
@@ -106,7 +106,7 @@ header .interface .logo span {
 }
 
 .menu-mobile{
-  background-color: #000;
+  background-color: #0f0f0f;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -149,7 +149,7 @@ header .interface .logo span {
 
 .menu-mobile ul li a:hover{
   background-color:  rgba(144, 67, 216, 0.897);
-  color: #000;
+  color: #0f0f0f;
 }
 
 .overlay-menu{
@@ -218,7 +218,7 @@ section.topo-do-site .flex {
   position: absolute;
   width: calc(100% + 8px);
   height: 100%;
-  background-color: #000;
+  background-color: #0f0f0f;
   border-left: 1.5px solid rgba(144, 67, 216, 0.897);
   right: -8px;
   animation: pisca .85s infinite, escrevendo 20s steps(14) infinite;
@@ -226,7 +226,7 @@ section.topo-do-site .flex {
 
 @keyframes pisca{
   to{
-    border-left: 2px solid #000;
+    border-left: 2px solid #0f0f0f;
   }
 }
 
@@ -424,7 +424,7 @@ section.portfolio .flex {
   justify-content: center;
   font-size: 24px;
   font-weight: 600;
-  background-color: #0000005e;
+  background-color: #1f1e1e;
   color: #fff;
   opacity: 0;
   transition: 0.5s;
@@ -476,7 +476,7 @@ form .btn-enviar {
 form .btn-enviar input {
   width: 120px;
   background-color: rgba(144, 67, 216, 0.897);
-  color: black;
+  color: #0f0f0f;
   font-weight: 700;
   cursor: pointer;
   transition: 0.4s;
