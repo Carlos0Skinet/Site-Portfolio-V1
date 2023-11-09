@@ -34,14 +34,14 @@ sr.reveal('.img-topo-site img', {
 // fim topo do site
 // sobre
 sr.reveal('.sobre .img-sobre img', { 
-    duration: 1500,
+    duration: 1000,
     origin: 'left',
     distance: '90px',
     delay: 250
 });
 
 sr.reveal('.sobre .txt-sobre', { 
-    duration: 1500,
+    duration: 1000,
     origin: 'right',
     distance: '28px',
     delay: 500
