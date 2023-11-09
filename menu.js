@@ -60,25 +60,25 @@ sr.reveal('.dse', {
     duration: 500,
     origin: 'bottom',
     distance: '50px',
-    delay: 500
+    delay: 450
 });
 sr.reveal('.dsc', { 
     duration: 500,
     origin: 'bottom',
     distance: '50px',
-    delay: 750
+    delay: 650
 });
 sr.reveal('.esm', { 
     duration: 500,
     origin: 'bottom',
     distance: '50px',
-    delay: 1000
+    delay: 900
 });
 sr.reveal('.btn-enviar', { 
     duration: 500,
     origin: 'top',
     distance: '28px',
-    delay: 1250
+    delay: 1000
 });
 //fim formulario
 // Gerais
