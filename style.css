@@ -192,6 +192,10 @@ section.topo-do-site .flex {
   visibility: hidden;
 }
 
+.topo-do-site .txt-topo-site h1{
+  font-size: 32px;
+}
+
 .topo-do-site .txt-topo-site p{
   position: relative;
   max-width: 600px;
@@ -228,19 +232,19 @@ section.topo-do-site .flex {
 
 @keyframes palavras{
   0%,20%{
-    content: "softwares";
+    content: "SOFTWARES";
   }
   21%,40%{
-    content: "codigos";
+    content: "CODIGOS";
   }
   41%,60%{
-    content: "tecnologias";
+    content: "TECNOLOGIAS";
   }
   61%,80%{
-    content: "websites";
+    content: "WEBSITES";
   }
   81%,100%{
-    content: "projetos";
+    content: "PROJETOS";
   }
 }
 
