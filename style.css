@@ -546,6 +546,7 @@ footer .line-footer p a {
   .topo-do-site .txt-topo-site{
     position: relative;
     left: 0;
+    min-width: 0
   }
 
   .topo-do-site .img-topo-site img{
