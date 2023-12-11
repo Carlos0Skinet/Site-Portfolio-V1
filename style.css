@@ -369,6 +369,11 @@ section.sobre .flex {
   transition: 0.4s;
 }
 
+.btn-social button:hover{
+  box-shadow: 0px 0px 10px rgb(132, 0, 255);
+  transform: scale(1.05);
+}
+
 .sobre .img-sobre img {
   border-radius: 25px;
   visibility: hidden;
