@@ -12,15 +12,35 @@
       rel="stylesheet"
     />
     <!-- Fim Google Fonts -->
+
     <!--Icons-->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
     <!--Fim Icons-->
+
     <!--scrollreveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--fim scrollreveal-->
+
+    <!-- animação de ir -->
+    <script>
+      $(document).ready(function () {
+          $('a[href^="#"]').on('click', function (event) {
+              var target = $($(this).attr('href'));
+
+              if (target.length) {
+                  event.preventDefault();
+                  $('html, body').animate({
+                      scrollTop: target.offset().top - 150 // Ajuste conforme necessário
+                  }, 1000);
+              }
+          });
+      });
+  </script>
+    <!-- animação de ir -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carlos Freitas</title>
     <link rel="shortcut icon" href="ico/dev.png" type="image/x-icon">

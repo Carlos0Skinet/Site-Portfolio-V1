@@ -47,40 +47,7 @@ sr.reveal('.sobre .txt-sobre', {
     delay: 500
 });
 //fim sobre 
-//portfolio
-//fim portfolio
-// formulario
-sr.reveal('.dsnc', { 
-    duration: 500,
-    origin: 'bottom',
-    distance: '50px',
-    delay: 250
-});
-sr.reveal('.dse', { 
-    duration: 500,
-    origin: 'bottom',
-    distance: '50px',
-    delay: 450
-});
-sr.reveal('.dsc', { 
-    duration: 500,
-    origin: 'bottom',
-    distance: '50px',
-    delay: 650
-});
-sr.reveal('.esm', { 
-    duration: 500,
-    origin: 'bottom',
-    distance: '50px',
-    delay: 900
-});
-sr.reveal('.btn-enviar', { 
-    duration: 500,
-    origin: 'top',
-    distance: '28px',
-    delay: 1000
-});
-//fim formulario
+
 // Gerais
 sr.reveal('.titulo', { 
     duration: 500,
